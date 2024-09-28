@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A/B Testing</description>
+   <name>internet.herokuapp.com</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a024a99d-7dc1-4561-9493-160433fef7c7</testCaseGuid>
+</TestCaseEntity>

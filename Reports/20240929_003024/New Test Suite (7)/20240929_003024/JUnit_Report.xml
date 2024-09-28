@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (7)" time="112.661" tests="4" failures="0" errors="0">
+   <testsuite name="New Test Suite (7)" tests="4" failures="0" errors="0" time="112.661" skipped="0" timestamp="29-09-2024T00:30:30" hostname="srpat - RamMarshivane" id="Test Suites/New Test Suite (7)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_003024\\New Test Suite (7)\\20240929_003024"/>
+         <property name="logFiles" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_003024\\New Test Suite (7)\\20240929_003024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="srpat - RamMarshivane"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="8fcfb0f15bdab9bb40dd2659ee678fb8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (23)" time="45.67" classname="Test Cases/New Test Case (23)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:30:30 - [TEST_CASE][PASSED] - Test Cases/New Test Case (23): Test Cases/New Test Case (23)
+
+29-09-2024T00:30:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:30:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:30:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:30:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:30:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/"): Navigate to 'https://www.saucedemo.com/v1/' successfully
+
+29-09-2024T00:30:33 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/' successfully
+
+29-09-2024T00:30:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+29-09-2024T00:30:34 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+29-09-2024T00:30:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+29-09-2024T00:30:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+29-09-2024T00:30:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+29-09-2024T00:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+29-09-2024T00:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceLab/Page_Swag Labs/button_ADD TO CART")): Object: 'Object Repository/SauceLab/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+29-09-2024T00:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLab/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+29-09-2024T00:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceLab/Page_Swag Labs/button_ADD TO CART_1")): Object: 'Object Repository/SauceLab/Page_Swag Labs/button_ADD TO CART_1' is clicked on
+
+29-09-2024T00:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLab/Page_Swag Labs/button_ADD TO CART_1' is clicked on
+
+29-09-2024T00:30:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceLab/Page_Swag Labs/path")): Object: 'Object Repository/SauceLab/Page_Swag Labs/path' is clicked on
+
+29-09-2024T00:31:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T00:31:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/SauceLab/Page_Swag Labs/path'. Try using Self-healing.
+
+29-09-2024T00:31:10 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+29-09-2024T00:31:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("shopping_cart_container")/a[@class="shopping_cart_link fa-layers fa-fw"]/svg[@class="svg-inline--fa fa-shopping-cart fa-w-18 fa-3x"]/path[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T00:31:12 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/srpat/Katalon Studio/My First Web UI Project/Reports/Self-healing/Object Repository/SauceLab/Page_Swag Labs/path_CSS.png
+
+29-09-2024T00:31:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/SauceLab/Page_Swag Labs/path' was broken. Propose an alternative one: 'path'.
+
+29-09-2024T00:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLab/Page_Swag Labs/path' is clicked on
+
+29-09-2024T00:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceLab/Page_Swag Labs/a_CHECKOUT")): Object: 'Object Repository/SauceLab/Page_Swag Labs/a_CHECKOUT' is clicked on
+
+29-09-2024T00:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLab/Page_Swag Labs/a_CHECKOUT' is clicked on
+
+29-09-2024T00:31:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_first-name"), "Ram"): Text 'Ram' is set on object 'Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_first-name'
+
+29-09-2024T00:31:14 - [MESSAGE][PASSED] - Text 'Ram' is set on object 'Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_first-name'
+
+29-09-2024T00:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_last-name"), "Patil"): Text 'Patil' is set on object 'Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_last-name'
+
+29-09-2024T00:31:14 - [MESSAGE][PASSED] - Text 'Patil' is set on object 'Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_last-name'
+
+29-09-2024T00:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_postal-code"), "489657"): Text '489657' is set on object 'Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_postal-code'
+
+29-09-2024T00:31:15 - [MESSAGE][PASSED] - Text '489657' is set on object 'Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_postal-code'
+
+29-09-2024T00:31:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceLab/Page_Swag Labs/input_CANCEL_btn_primary cart_button")): Object: 'Object Repository/SauceLab/Page_Swag Labs/input_CANCEL_btn_primary cart_button' is clicked on
+
+29-09-2024T00:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLab/Page_Swag Labs/input_CANCEL_btn_primary cart_button' is clicked on
+
+29-09-2024T00:31:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceLab/Page_Swag Labs/a_FINISH")): Object: 'Object Repository/SauceLab/Page_Swag Labs/a_FINISH' is clicked on
+
+29-09-2024T00:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLab/Page_Swag Labs/a_FINISH' is clicked on
+
+29-09-2024T00:31:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:31:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (25)" time="16.7" classname="Test Cases/New Test Case (25)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:31:16 - [TEST_CASE][PASSED] - Test Cases/New Test Case (25): Test Cases/New Test Case (25)
+
+29-09-2024T00:31:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:31:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:31:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:31:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:31:17 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:31:20 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Basic Auth")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Basic Auth' is clicked on
+
+29-09-2024T00:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Basic Auth' is clicked on
+
+29-09-2024T00:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/p_Congratulations You must have the proper _36d9a2")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/p_Congratulations You must have the proper _36d9a2' is clicked on
+
+29-09-2024T00:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/p_Congratulations You must have the proper _36d9a2' is clicked on
+
+29-09-2024T00:31:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:31:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (26)" time="12.901" classname="Test Cases/New Test Case (26)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:31:33 - [TEST_CASE][PASSED] - Test Cases/New Test Case (26): Test Cases/New Test Case (26)
+
+29-09-2024T00:31:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:31:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:31:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:31:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:31:33 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:31:36 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:31:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Broken Images")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Broken Images' is clicked on
+
+29-09-2024T00:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Broken Images' is clicked on
+
+29-09-2024T00:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/img")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/img' is clicked on
+
+29-09-2024T00:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/img' is clicked on
+
+29-09-2024T00:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/img_1")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/img_1' is clicked on
+
+29-09-2024T00:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/img_1' is clicked on
+
+29-09-2024T00:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Elemental Selenium")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Elemental Selenium' is clicked on
+
+29-09-2024T00:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Elemental Selenium' is clicked on
+
+29-09-2024T00:31:38 - [TEST_STEP][PASSED] - switchToWindowTitle("Home | Elemental Selenium"): Switched to window with title: 'Home | Elemental Selenium'
+
+29-09-2024T00:31:41 - [MESSAGE][PASSED] - Switched to window with title: 'Home | Elemental Selenium'
+
+29-09-2024T00:31:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/select_Pick a languageJavaScriptPythonJavaCRuby"), "java", true): All options with value 'java' are selected in object 'Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/select_Pick a languageJavaScriptPythonJavaCRuby'  using regular expression
+
+29-09-2024T00:31:42 - [MESSAGE][PASSED] - All options with value 'java' are selected in object 'Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/select_Pick a languageJavaScriptPythonJavaCRuby'  using regular expression
+
+29-09-2024T00:31:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/input_One email every Tuesday. Unsubscribe _75de4d"), "r@gmail.com"): Text 'r@gmail.com' is set on object 'Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/input_One email every Tuesday. Unsubscribe _75de4d'
+
+29-09-2024T00:31:43 - [MESSAGE][PASSED] - Text 'r@gmail.com' is set on object 'Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/input_One email every Tuesday. Unsubscribe _75de4d'
+
+29-09-2024T00:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/input_submit")): Object: 'Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/input_submit' is clicked on
+
+29-09-2024T00:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/input_submit' is clicked on
+
+29-09-2024T00:31:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:31:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (27)" time="37.225" classname="Test Cases/New Test Case (27)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:31:46 - [TEST_CASE][PASSED] - Test Cases/New Test Case (27): Test Cases/New Test Case (27)
+
+29-09-2024T00:31:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:31:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:31:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:31:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:31:46 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:31:49 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Challenging DOM")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Challenging DOM' is clicked on
+
+29-09-2024T00:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Challenging DOM' is clicked on
+
+29-09-2024T00:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo' is clicked on
+
+29-09-2024T00:32:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='d1c2eb70-5e0f-013d-d3a2-761a768c7220']'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T00:32:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo'. Try using Self-healing.
+
+29-09-2024T00:32:22 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo' was broken. Propose an alternative one: '//div[@id='content']/div/div/div/div/a'.
+
+29-09-2024T00:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo' is clicked on
+
+29-09-2024T00:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_edit")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_edit' is clicked on
+
+29-09-2024T00:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_edit' is clicked on
+
+29-09-2024T00:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_edit")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_edit' is clicked on
+
+29-09-2024T00:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_edit' is clicked on
+
+29-09-2024T00:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_delete")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_delete' is clicked on
+
+29-09-2024T00:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_delete' is clicked on
+
+29-09-2024T00:32:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:32:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-09-2024T00:30:30 - [TEST_SUITE][PASSED] - New Test Suite (7): Test Cases/New Test Case (27)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

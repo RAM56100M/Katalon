@@ -1,0 +1,114 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SauceLab/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dlink[name\u003d\"2\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SauceLab/Page_Swag Labs/path_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SauceLab/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dlink[name\u003d\"3\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SauceLab/Page_Swag Labs/path_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo",
+      "brokenLocator": "//a[@id\u003d\u0027d1c2eb70-5e0f-013d-d3a2-761a768c7220\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027content\u0027]/div/div/div/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/the-internet.herokuapp.com/Page_The Internet/a_500",
+      "brokenLocator": "//div[@id\u003d\u0027content\u0027]/div/ul/li[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Elemental Selenium\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/the-internet.herokuapp.com/Page_The Internet/a_500_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange_HRM/Page_OrangeHRM/input",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/div[2]/div/div/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Orange_HRM/Page_OrangeHRM/input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div[2]/form/div/div/div[3]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027-- Select --\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div[2]/form/div/div/div[4]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027-- Select --\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange_HRM/Page_Practice Page/div_British Indian Ocean Territory",
+      "brokenLocator": "//div[@id\u003d\u0027ui-id-38\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027ui-id-1\u0027]/li/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SauceLab/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SauceLab/Page_Swag Labs/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here",
+      "brokenLocator": "//div[@id\u003d\u0027content\u0027]/div/p/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Elemental Selenium\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info",
+      "brokenLocator": "//div[@id\u003d\u0027leftPanel\u0027]/ul/li[6]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bill Pay\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info_neighbor.png"
+    }
+  ]
+}

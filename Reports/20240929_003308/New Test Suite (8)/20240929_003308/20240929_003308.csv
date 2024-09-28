@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (8),Chrome 129.0.0.0,,,29-09-2024 00:33:14,29-09-2024 00:33:57,42.946s,PASSED
+,,,,,,,
+Test Cases/New Test Case (40),Chrome 129.0.0.0,,,29-09-2024 00:33:14,29-09-2024 00:33:14,0.174s,PASSED
+return null,Chrome 129.0.0.0,,,29-09-2024 00:33:14,29-09-2024 00:33:14,0.002s,PASSED
+,,,,,,,
+Test Cases/New Test Case (41),Chrome 129.0.0.0,,,29-09-2024 00:33:14,29-09-2024 00:33:20,5.912s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:33:14,29-09-2024 00:33:16,1.544s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:33:16,29-09-2024 00:33:19,2.842s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_JavaScript Alerts""))",Chrome 129.0.0.0,,,29-09-2024 00:33:19,29-09-2024 00:33:20,0.781s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Alert""))",Chrome 129.0.0.0,,,29-09-2024 00:33:20,29-09-2024 00:33:20,0.313s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Confirm""))",Chrome 129.0.0.0,,,29-09-2024 00:33:20,29-09-2024 00:33:20,0.093s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Prompt""))",Chrome 129.0.0.0,,,29-09-2024 00:33:20,29-09-2024 00:33:20,0.080s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:33:20,29-09-2024 00:33:20,0.174s,PASSED
+,,,,,,,
+Test Cases/New Test Case (42),Chrome 129.0.0.0,,,29-09-2024 00:33:20,29-09-2024 00:33:57,36.692s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:33:20,29-09-2024 00:33:21,0.640s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:33:21,29-09-2024 00:33:24,2.691s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Multiple Windows""))",Chrome 129.0.0.0,,,29-09-2024 00:33:24,29-09-2024 00:33:24,0.804s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here""))",Chrome 129.0.0.0,,,29-09-2024 00:33:24,29-09-2024 00:33:57,32.319s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:33:57,29-09-2024 00:33:57,0.171s,PASSED

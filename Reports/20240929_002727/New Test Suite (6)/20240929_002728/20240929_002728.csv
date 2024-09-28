@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (6),Chrome 129.0.0.0,,,29-09-2024 00:27:34,29-09-2024 00:27:56,21.529s,FAILED
+,,,,,,,
+Test Cases/New Test Case (20),Chrome 129.0.0.0,,,29-09-2024 00:27:34,29-09-2024 00:27:40,5.918s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:27:35,29-09-2024 00:27:36,1.596s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 129.0.0.0,,,29-09-2024 00:27:36,29-09-2024 00:27:38,1.518s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/a_Courses""))",Chrome 129.0.0.0,,,29-09-2024 00:27:38,29-09-2024 00:27:39,0.815s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/a_Home""))",Chrome 129.0.0.0,,,29-09-2024 00:27:39,29-09-2024 00:27:39,0.738s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/a_Mentorship""))",Chrome 129.0.0.0,,,29-09-2024 00:27:39,29-09-2024 00:27:40,0.860s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:27:40,29-09-2024 00:27:40,0.202s,PASSED
+,,,,,,,
+Test Cases/New Test Case (21),Chrome 129.0.0.0,,,29-09-2024 00:27:40,29-09-2024 00:27:44,3.369s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:27:40,29-09-2024 00:27:41,0.655s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 129.0.0.0,,,29-09-2024 00:27:41,29-09-2024 00:27:42,1.404s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/li_The academy is led by Rahul Shetty, a Te_dd1d60""))",Chrome 129.0.0.0,,,29-09-2024 00:27:42,29-09-2024 00:27:43,0.864s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/a_JOIN NOW""))",Chrome 129.0.0.0,,,29-09-2024 00:27:43,29-09-2024 00:27:44,0.390s,PASSED
+,,,,,,,
+Test Cases/New Test Case (22),Chrome 129.0.0.0,,,29-09-2024 00:27:53,29-09-2024 00:27:56,2.891s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:27:53,29-09-2024 00:27:54,0.767s,PASSED
+"navigateToUrl(""https://demo.guru99.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:27:54,29-09-2024 00:27:56,1.820s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Guru99 Bank Home Page/a_Flash Movie Demo""))",Chrome 129.0.0.0,,,29-09-2024 00:27:56,29-09-2024 00:27:56,0.295s,FAILED

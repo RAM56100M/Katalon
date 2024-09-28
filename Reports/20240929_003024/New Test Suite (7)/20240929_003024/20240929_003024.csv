@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (7),Chrome 129.0.0.0,,,29-09-2024 00:30:30,29-09-2024 00:32:23,1m - 52.661s,PASSED
+,,,,,,,
+Test Cases/New Test Case (23),Chrome 129.0.0.0,,,29-09-2024 00:30:30,29-09-2024 00:31:16,45.670s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:30:31,29-09-2024 00:30:32,1.628s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/"")",Chrome 129.0.0.0,,,29-09-2024 00:30:32,29-09-2024 00:30:33,0.410s,PASSED
+"setText(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Chrome 129.0.0.0,,,29-09-2024 00:30:33,29-09-2024 00:30:34,0.850s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 129.0.0.0,,,29-09-2024 00:30:34,29-09-2024 00:30:34,0.402s,PASSED
+"click(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 129.0.0.0,,,29-09-2024 00:30:34,29-09-2024 00:30:35,0.880s,PASSED
+"click(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/button_ADD TO CART""))",Chrome 129.0.0.0,,,29-09-2024 00:30:35,29-09-2024 00:30:35,0.293s,PASSED
+"click(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/button_ADD TO CART_1""))",Chrome 129.0.0.0,,,29-09-2024 00:30:35,29-09-2024 00:30:36,0.508s,PASSED
+"click(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/path""))",Chrome 129.0.0.0,,,29-09-2024 00:30:36,29-09-2024 00:31:13,37.024s,PASSED
+"click(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/a_CHECKOUT""))",Chrome 129.0.0.0,,,29-09-2024 00:31:13,29-09-2024 00:31:13,0.588s,PASSED
+"setText(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_first-name""), ""Ram"")",Chrome 129.0.0.0,,,29-09-2024 00:31:13,29-09-2024 00:31:14,0.606s,PASSED
+"setText(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_last-name""), ""Patil"")",Chrome 129.0.0.0,,,29-09-2024 00:31:14,29-09-2024 00:31:14,0.599s,PASSED
+"setText(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/input_Checkout Your Information_postal-code""), ""489657"")",Chrome 129.0.0.0,,,29-09-2024 00:31:14,29-09-2024 00:31:15,0.601s,PASSED
+"click(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/input_CANCEL_btn_primary cart_button""))",Chrome 129.0.0.0,,,29-09-2024 00:31:15,29-09-2024 00:31:15,0.379s,PASSED
+"click(findTestObject(""Object Repository/SauceLab/Page_Swag Labs/a_FINISH""))",Chrome 129.0.0.0,,,29-09-2024 00:31:15,29-09-2024 00:31:16,0.466s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:31:16,29-09-2024 00:31:16,0.208s,PASSED
+,,,,,,,
+Test Cases/New Test Case (25),Chrome 129.0.0.0,,,29-09-2024 00:31:16,29-09-2024 00:31:33,16.700s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:31:16,29-09-2024 00:31:17,0.641s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:31:17,29-09-2024 00:31:20,2.737s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Basic Auth""))",Chrome 129.0.0.0,,,29-09-2024 00:31:20,29-09-2024 00:31:20,0.790s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/p_Congratulations You must have the proper _36d9a2""))",Chrome 129.0.0.0,,,29-09-2024 00:31:20,29-09-2024 00:31:33,12.310s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:31:33,29-09-2024 00:31:33,0.162s,PASSED
+,,,,,,,
+Test Cases/New Test Case (26),Chrome 129.0.0.0,,,29-09-2024 00:31:33,29-09-2024 00:31:46,12.901s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:31:33,29-09-2024 00:31:33,0.633s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:31:33,29-09-2024 00:31:36,2.808s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Broken Images""))",Chrome 129.0.0.0,,,29-09-2024 00:31:36,29-09-2024 00:31:37,0.996s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/img""))",Chrome 129.0.0.0,,,29-09-2024 00:31:37,29-09-2024 00:31:38,0.292s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/img_1""))",Chrome 129.0.0.0,,,29-09-2024 00:31:38,29-09-2024 00:31:38,0.286s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Elemental Selenium""))",Chrome 129.0.0.0,,,29-09-2024 00:31:38,29-09-2024 00:31:38,0.322s,PASSED
+"switchToWindowTitle(""Home | Elemental Selenium"")",Chrome 129.0.0.0,,,29-09-2024 00:31:38,29-09-2024 00:31:41,3.271s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/select_Pick a languageJavaScriptPythonJavaCRuby""), ""java"", true)",Chrome 129.0.0.0,,,29-09-2024 00:31:41,29-09-2024 00:31:42,0.943s,PASSED
+"setText(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/input_One email every Tuesday. Unsubscribe _75de4d""), ""r@gmail.com"")",Chrome 129.0.0.0,,,29-09-2024 00:31:42,29-09-2024 00:31:43,0.620s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_Home  Elemental Selenium/input_submit""))",Chrome 129.0.0.0,,,29-09-2024 00:31:43,29-09-2024 00:31:46,2.497s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:31:46,29-09-2024 00:31:46,0.181s,PASSED
+,,,,,,,
+Test Cases/New Test Case (27),Chrome 129.0.0.0,,,29-09-2024 00:31:46,29-09-2024 00:32:23,37.225s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:31:46,29-09-2024 00:31:46,0.642s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:31:46,29-09-2024 00:31:49,2.742s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Challenging DOM""))",Chrome 129.0.0.0,,,29-09-2024 00:31:49,29-09-2024 00:31:50,0.993s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo""))",Chrome 129.0.0.0,,,29-09-2024 00:31:50,29-09-2024 00:32:22,31.774s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_edit""))",Chrome 129.0.0.0,,,29-09-2024 00:32:22,29-09-2024 00:32:22,0.304s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_edit""))",Chrome 129.0.0.0,,,29-09-2024 00:32:22,29-09-2024 00:32:22,0.288s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_delete""))",Chrome 129.0.0.0,,,29-09-2024 00:32:22,29-09-2024 00:32:23,0.287s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:32:23,29-09-2024 00:32:23,0.156s,PASSED

@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (5),Chrome 129.0.0.0,,,29-09-2024 00:25:55,29-09-2024 00:26:27,31.819s,PASSED
+,,,,,,,
+Test Cases/New Test Case (34),Chrome 129.0.0.0,,,29-09-2024 00:25:55,29-09-2024 00:26:03,7.325s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:25:56,29-09-2024 00:25:57,1.668s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:25:57,29-09-2024 00:26:00,2.788s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_File Download""))",Chrome 129.0.0.0,,,29-09-2024 00:26:00,29-09-2024 00:26:01,0.801s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_cluster 4 functional testing tools.png""))",Chrome 129.0.0.0,,,29-09-2024 00:26:01,29-09-2024 00:26:01,0.532s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_LD.png""))",Chrome 129.0.0.0,,,29-09-2024 00:26:01,29-09-2024 00:26:02,0.617s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_karate-logo.png""))",Chrome 129.0.0.0,,,29-09-2024 00:26:02,29-09-2024 00:26:03,0.546s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:26:03,29-09-2024 00:26:03,0.159s,PASSED
+,,,,,,,
+Test Cases/New Test Case (35),Chrome 129.0.0.0,,,29-09-2024 00:26:03,29-09-2024 00:26:08,5.369s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:26:03,29-09-2024 00:26:03,0.692s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:26:03,29-09-2024 00:26:06,2.711s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Dynamic Loading""))",Chrome 129.0.0.0,,,29-09-2024 00:26:06,29-09-2024 00:26:07,0.816s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Example 1 Element on page that is hidden""))",Chrome 129.0.0.0,,,29-09-2024 00:26:07,29-09-2024 00:26:08,0.568s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Start""))",Chrome 129.0.0.0,,,29-09-2024 00:26:08,29-09-2024 00:26:08,0.302s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:26:08,29-09-2024 00:26:08,0.209s,PASSED
+,,,,,,,
+Test Cases/New Test Case (36),Chrome 129.0.0.0,,,29-09-2024 00:26:08,29-09-2024 00:26:14,5.818s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:26:08,29-09-2024 00:26:09,0.678s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:26:09,29-09-2024 00:26:12,2.710s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Forgot Password""))",Chrome 129.0.0.0,,,29-09-2024 00:26:12,29-09-2024 00:26:12,0.809s,PASSED
+"setText(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/input_E-mail_email""), ""r@gmail.com"")",Chrome 129.0.0.0,,,29-09-2024 00:26:12,29-09-2024 00:26:13,0.674s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Retrieve password""))",Chrome 129.0.0.0,,,29-09-2024 00:26:13,29-09-2024 00:26:14,0.679s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:26:14,29-09-2024 00:26:14,0.222s,PASSED
+,,,,,,,
+Test Cases/New Test Case (37),Chrome 129.0.0.0,,,29-09-2024 00:26:14,29-09-2024 00:26:20,6.425s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:26:14,29-09-2024 00:26:15,0.688s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:26:15,29-09-2024 00:26:17,2.733s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Form Authentication""))",Chrome 129.0.0.0,,,29-09-2024 00:26:17,29-09-2024 00:26:18,1.039s,PASSED
+"setText(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/input_Username_username""), ""ram"")",Chrome 129.0.0.0,,,29-09-2024 00:26:18,29-09-2024 00:26:19,0.614s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/input_Password_password""), ""1+gg5kC6GEk="")",Chrome 129.0.0.0,,,29-09-2024 00:26:19,29-09-2024 00:26:19,0.370s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Login""))",Chrome 129.0.0.0,,,29-09-2024 00:26:19,29-09-2024 00:26:20,0.780s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:26:20,29-09-2024 00:26:20,0.146s,PASSED
+,,,,,,,
+Test Cases/New Test Case (38),Chrome 129.0.0.0,,,29-09-2024 00:26:20,29-09-2024 00:26:27,6.718s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:26:20,29-09-2024 00:26:21,0.657s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:26:21,29-09-2024 00:26:24,2.734s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Frames""))",Chrome 129.0.0.0,,,29-09-2024 00:26:24,29-09-2024 00:26:25,0.817s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Nested Frames""))",Chrome 129.0.0.0,,,29-09-2024 00:26:25,29-09-2024 00:26:26,1.002s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_/html_katalonfont-familymonospacefont-size13_0fa88e""))",Chrome 129.0.0.0,,,29-09-2024 00:26:26,29-09-2024 00:26:26,0.484s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_/body_MIDDLE""))",Chrome 129.0.0.0,,,29-09-2024 00:26:26,29-09-2024 00:26:27,0.427s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_/body_BOTTOMhtml1body1""))",Chrome 129.0.0.0,,,29-09-2024 00:26:27,29-09-2024 00:26:27,0.365s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:26:27,29-09-2024 00:26:27,0.186s,PASSED

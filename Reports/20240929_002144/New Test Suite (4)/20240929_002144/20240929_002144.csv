@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (4),Chrome 129.0.0.0,,,29-09-2024 00:21:50,29-09-2024 00:24:39,2m - 48.940s,PASSED
+,,,,,,,
+Test Cases/New Test Case (50),Chrome 129.0.0.0,,,29-09-2024 00:21:50,29-09-2024 00:22:02,11.820s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:21:51,29-09-2024 00:21:52,1.597s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm"")",Chrome 129.0.0.0,,,29-09-2024 00:21:52,29-09-2024 00:21:55,2.782s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Page_ParaBank  Welcome  Online Banking/input_Username_username (1)""), ""ram"")",Chrome 129.0.0.0,,,29-09-2024 00:21:55,29-09-2024 00:21:56,0.660s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Banking/Page_ParaBank  Welcome  Online Banking/input_Password_password (1)""), ""1GvK2HZY7CyrJ0QUV2kr7w=="")",Chrome 129.0.0.0,,,29-09-2024 00:21:56,29-09-2024 00:21:56,0.385s,PASSED
+"click(findTestObject(""Object Repository/Banking/Page_ParaBank  Welcome  Online Banking/input_Password_button (1)""))",Chrome 129.0.0.0,,,29-09-2024 00:21:56,29-09-2024 00:21:58,1.530s,PASSED
+"click(findTestObject(""Object Repository/Banking/Page_ParaBank  Accounts Overview/a_Transfer Funds""))",Chrome 129.0.0.0,,,29-09-2024 00:21:58,29-09-2024 00:21:59,1.753s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Page_ParaBank  Transfer Funds/input_Amount_input""), ""50"")",Chrome 129.0.0.0,,,29-09-2024 00:21:59,29-09-2024 00:22:00,1.023s,PASSED
+"click(findTestObject(""Object Repository/Banking/Page_ParaBank  Transfer Funds/input_From account to account_button""))",Chrome 129.0.0.0,,,29-09-2024 00:22:00,29-09-2024 00:22:01,0.317s,PASSED
+"click(findTestObject(""Object Repository/Banking/Page_ParaBank  Transfer Funds/a_home""))",Chrome 129.0.0.0,,,29-09-2024 00:22:01,29-09-2024 00:22:02,1.354s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:22:02,29-09-2024 00:22:02,0.196s,PASSED
+,,,,,,,
+Test Cases/New Test Case (49),Chrome 129.0.0.0,,,29-09-2024 00:22:02,29-09-2024 00:22:13,10.344s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:22:02,29-09-2024 00:22:03,0.640s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm"")",Chrome 129.0.0.0,,,29-09-2024 00:22:03,29-09-2024 00:22:06,2.897s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Page_ParaBank  Welcome  Online Banking/input_Username_username""), ""ram"")",Chrome 129.0.0.0,,,29-09-2024 00:22:06,29-09-2024 00:22:07,0.619s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Banking/Page_ParaBank  Welcome  Online Banking/input_Password_password""), ""1GvK2HZY7CyrJ0QUV2kr7w=="")",Chrome 129.0.0.0,,,29-09-2024 00:22:07,29-09-2024 00:22:07,0.372s,PASSED
+"click(findTestObject(""Object Repository/Banking/Page_ParaBank  Welcome  Online Banking/input_Password_button""))",Chrome 129.0.0.0,,,29-09-2024 00:22:07,29-09-2024 00:22:08,1.539s,PASSED
+"click(findTestObject(""Object Repository/Banking/Page_ParaBank  Accounts Overview/a_Accounts Overview""))",Chrome 129.0.0.0,,,29-09-2024 00:22:08,29-09-2024 00:22:10,1.587s,PASSED
+"click(findTestObject(""Object Repository/Banking/Page_ParaBank  Accounts Overview/a_22113""))",Chrome 129.0.0.0,,,29-09-2024 00:22:10,29-09-2024 00:22:12,2.059s,PASSED
+"click(findTestObject(""Object Repository/Banking/Page_ParaBank  Account Activity/input_Type_button""))",Chrome 129.0.0.0,,,29-09-2024 00:22:12,29-09-2024 00:22:12,0.312s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:22:12,29-09-2024 00:22:13,0.221s,PASSED
+,,,,,,,
+Test Cases/New Test Case (48),Chrome 129.0.0.0,,,29-09-2024 00:23:29,29-09-2024 00:23:55,26.159s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:23:29,29-09-2024 00:23:29,0.774s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:23:29,29-09-2024 00:23:32,2.775s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/svg (1)""))",Chrome 129.0.0.0,,,29-09-2024 00:23:32,29-09-2024 00:23:50,17.715s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_Alerts""))",Chrome 129.0.0.0,,,29-09-2024 00:23:50,29-09-2024 00:23:52,1.690s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Click me""))",Chrome 129.0.0.0,,,29-09-2024 00:23:52,29-09-2024 00:23:54,2.597s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Click me_1""))",Chrome 129.0.0.0,,,29-09-2024 00:23:54,29-09-2024 00:23:55,0.305s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:23:55,29-09-2024 00:23:55,0.289s,PASSED
+,,,,,,,
+Test Cases/New Test Case (47),Chrome 129.0.0.0,,,29-09-2024 00:23:55,29-09-2024 00:24:39,44.437s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:23:55,29-09-2024 00:23:55,0.605s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:23:55,29-09-2024 00:23:59,3.399s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/svg""))",Chrome 129.0.0.0,,,29-09-2024 00:23:59,29-09-2024 00:24:23,23.887s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_Radio Button""))",Chrome 129.0.0.0,,,29-09-2024 00:24:23,29-09-2024 00:24:24,1.677s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_Yes""))",Chrome 129.0.0.0,,,29-09-2024 00:24:24,29-09-2024 00:24:27,2.566s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_Impressive""))",Chrome 129.0.0.0,,,29-09-2024 00:24:27,29-09-2024 00:24:28,0.521s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_No""))",Chrome 129.0.0.0,,,29-09-2024 00:24:28,29-09-2024 00:24:28,0.292s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_Impressive""))",Chrome 129.0.0.0,,,29-09-2024 00:24:28,29-09-2024 00:24:28,0.294s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_Upload and Download""))",Chrome 129.0.0.0,,,29-09-2024 00:24:28,29-09-2024 00:24:28,0.295s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/a_Download""))",Chrome 129.0.0.0,,,29-09-2024 00:24:28,29-09-2024 00:24:33,4.677s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/span_Dynamic Properties""))",Chrome 129.0.0.0,,,29-09-2024 00:24:33,29-09-2024 00:24:33,0.344s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Color Change""))",Chrome 129.0.0.0,,,29-09-2024 00:24:33,29-09-2024 00:24:36,2.595s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Visible After 5 Seconds""))",Chrome 129.0.0.0,,,29-09-2024 00:24:36,29-09-2024 00:24:39,2.914s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:24:39,29-09-2024 00:24:39,0.319s,PASSED

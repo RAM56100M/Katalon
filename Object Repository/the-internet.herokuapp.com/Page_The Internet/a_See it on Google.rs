@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_See it on Google</name>
+   <tag></tag>
+   <elementGuidId>bcdcb16f-d82b-417d-9ef9-a18df01c34a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#map-link > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='map-link']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;See it on Google&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>256452d4-0c56-42bc-9d8b-f50777d194b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://maps.google.com/?q=18.4844288,73.7968128</value>
+      <webElementGuid>19771a04-1cb9-439a-92c8-1c2451f17f45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See it on Google</value>
+      <webElementGuid>739d0163-6629-472a-a27b-cd3052c75e03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;map-link&quot;)/a[1]</value>
+      <webElementGuid>eac119b9-f9ba-41e9-809c-b690e5c298d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='map-link']/a</value>
+      <webElementGuid>a32e2249-3a6e-457e-9541-8037358bcd97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'See it on Google')]</value>
+      <webElementGuid>c0f26ddc-b522-427d-910b-e56a8c308c2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Geolocation'])[1]/following::a[1]</value>
+      <webElementGuid>b4e205b2-385c-4e9e-b083-c99791781847</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Where am I?'])[1]/preceding::a[1]</value>
+      <webElementGuid>fa8d2b3f-2929-4c0d-b2b2-1bda53517d23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See it on Google']/parent::*</value>
+      <webElementGuid>74e09669-9f60-4a7f-9c89-04ea7a760529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://maps.google.com/?q=18.4844288,73.7968128']</value>
+      <webElementGuid>4d5bd1c5-a8bb-4d67-aba9-e1ece315316f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a</value>
+      <webElementGuid>04bbd056-4f3d-45d8-9211-0cbf9659bc3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://maps.google.com/?q=18.4844288,73.7968128' and (text() = 'See it on Google' or . = 'See it on Google')]</value>
+      <webElementGuid>50443a6a-5558-4a59-9f90-90c105016500</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

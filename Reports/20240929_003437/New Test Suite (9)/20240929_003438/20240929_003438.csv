@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (9),Chrome 129.0.0.0,,,29-09-2024 00:34:44,29-09-2024 00:35:53,1m - 8.449s,PASSED
+,,,,,,,
+Test Cases/New Test Case (43),Chrome 129.0.0.0,,,29-09-2024 00:34:44,29-09-2024 00:34:52,7.409s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:34:45,29-09-2024 00:34:46,1.575s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:34:46,29-09-2024 00:34:49,2.739s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Notification Messages""))",Chrome 129.0.0.0,,,29-09-2024 00:34:49,29-09-2024 00:34:50,1.211s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here""))",Chrome 129.0.0.0,,,29-09-2024 00:34:50,29-09-2024 00:34:51,0.784s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here""))",Chrome 129.0.0.0,,,29-09-2024 00:34:51,29-09-2024 00:34:52,0.752s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:34:52,29-09-2024 00:34:52,0.140s,PASSED
+,,,,,,,
+Test Cases/New Test Case (44),Chrome 129.0.0.0,,,29-09-2024 00:34:52,29-09-2024 00:35:33,41.248s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:34:52,29-09-2024 00:34:52,0.631s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:34:52,29-09-2024 00:34:55,2.742s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Status Codes""))",Chrome 129.0.0.0,,,29-09-2024 00:34:55,29-09-2024 00:34:56,0.811s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_200""))",Chrome 129.0.0.0,,,29-09-2024 00:34:56,29-09-2024 00:34:57,0.574s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_here""))",Chrome 129.0.0.0,,,29-09-2024 00:34:57,29-09-2024 00:34:57,0.569s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_500""))",Chrome 129.0.0.0,,,29-09-2024 00:34:57,29-09-2024 00:34:58,0.566s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_500""))",Chrome 129.0.0.0,,,29-09-2024 00:34:58,29-09-2024 00:35:29,31.650s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_here""))",Chrome 129.0.0.0,,,29-09-2024 00:35:29,29-09-2024 00:35:33,3.471s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:35:33,29-09-2024 00:35:33,0.160s,PASSED
+,,,,,,,
+Test Cases/New Test Case (45),Chrome 129.0.0.0,,,29-09-2024 00:35:33,29-09-2024 00:35:38,4.989s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:35:33,29-09-2024 00:35:34,0.628s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:35:34,29-09-2024 00:35:37,2.798s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Typos""))",Chrome 129.0.0.0,,,29-09-2024 00:35:37,29-09-2024 00:35:37,0.811s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/p_This example demonstrates a typo being in_12c62c""))",Chrome 129.0.0.0,,,29-09-2024 00:35:37,29-09-2024 00:35:38,0.282s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/p_Sometimes youll see a typo, other times y_dcf127""))",Chrome 129.0.0.0,,,29-09-2024 00:35:38,29-09-2024 00:35:38,0.272s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:35:38,29-09-2024 00:35:38,0.139s,PASSED
+,,,,,,,
+Test Cases/New Test Case (46),Chrome 129.0.0.0,,,29-09-2024 00:35:38,29-09-2024 00:35:53,14.638s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:35:38,29-09-2024 00:35:39,0.629s,PASSED
+"navigateToUrl(""https://demoqa.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:35:39,29-09-2024 00:35:43,3.937s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/svg""))",Chrome 129.0.0.0,,,29-09-2024 00:35:43,29-09-2024 00:35:45,2.865s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/li_Text Box""))",Chrome 129.0.0.0,,,29-09-2024 00:35:45,29-09-2024 00:35:47,1.812s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Full Name_userName""), ""ram"")",Chrome 129.0.0.0,,,29-09-2024 00:35:47,29-09-2024 00:35:48,0.831s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), ""ram@gmail.com"")",Chrome 129.0.0.0,,,29-09-2024 00:35:48,29-09-2024 00:35:49,0.636s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), ""United States"")",Chrome 129.0.0.0,,,29-09-2024 00:35:49,29-09-2024 00:35:49,0.630s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress""), ""Same as current address"")",Chrome 129.0.0.0,,,29-09-2024 00:35:49,29-09-2024 00:35:50,0.666s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Chrome 129.0.0.0,,,29-09-2024 00:35:50,29-09-2024 00:35:52,2.386s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:35:52,29-09-2024 00:35:53,0.196s,PASSED

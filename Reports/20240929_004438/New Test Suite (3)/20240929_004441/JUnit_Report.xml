@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (3)" time="326.108" tests="3" failures="1" errors="0">
+   <testsuite name="New Test Suite (3)" tests="3" failures="1" errors="0" time="326.108" skipped="0" timestamp="29-09-2024T01:06:39" hostname="srpat - RamMarshivane" id="Test Suites/New Test Suite (3)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_004438\\New Test Suite (3)\\20240929_004441"/>
+         <property name="logFiles" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_004438\\New Test Suite (3)\\20240929_004441\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="srpat - RamMarshivane"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="188c1a4704aa53e3dfae39382550f465"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (10)" time="11.399" classname="Test Cases/New Test Case (10)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T01:06:39 - [TEST_CASE][PASSED] - Test Cases/New Test Case (10): Test Cases/New Test Case (10)
+
+29-09-2024T01:06:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T01:06:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T01:06:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T01:06:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T01:06:41 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T01:06:43 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T01:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T01:06:45 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T01:06:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:06:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:06:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:06:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Admin_oxd-icon-button oxd-main-menu-button")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Admin_oxd-icon-button oxd-main-menu-button' is clicked on
+
+29-09-2024T01:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Admin_oxd-icon-button oxd-main-menu-button' is clicked on
+
+29-09-2024T01:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_2024-24-09 0241 AM")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_2024-24-09 0241 AM' is clicked on
+
+29-09-2024T01:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_2024-24-09 0241 AM' is clicked on
+
+29-09-2024T01:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T01:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T01:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T01:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T01:06:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T01:06:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (52)" time="71.87" classname="Test Cases/New Test Case (52)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New Test Case (52) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at New Test Case (52).run(New Test Case (52):31)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1727550881877.run(TempTestSuite1727550881877.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' located by '//input[@id='customer.address.state']' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[29-09-2024T01:10:38 - [TEST_CASE][FAILED] - Test Cases/New Test Case (52): Test Cases/New Test Case (52) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case (52).run(New Test Case (52):31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550881877.run(TempTestSuite1727550881877.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' located by '//input[@id='customer.address.state']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+29-09-2024T01:10:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T01:10:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-09-2024T01:10:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T01:10:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T01:10:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T01:10:39 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+29-09-2024T01:10:42 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+29-09-2024T01:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/input_Username_username"), "ram"): Text 'ram' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+29-09-2024T01:10:42 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+29-09-2024T01:10:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/input_Password_password"), "1GvK2HZY7CyrJ0QUV2kr7w=="): Text ****** has been set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+29-09-2024T01:10:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+29-09-2024T01:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info")): Object: 'Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info' is clicked on
+
+29-09-2024T01:11:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='leftPanel']/ul/li[6]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:11:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info'. Try using Self-healing.
+
+29-09-2024T01:11:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Bill Pay'])[1]/following::a[2]'.
+
+29-09-2024T01:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info' is clicked on
+
+29-09-2024T01:11:15 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state"), "Sharlet"): Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case (52).run(New Test Case (52):31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550881877.run(TempTestSuite1727550881877.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' located by '//input[@id='customer.address.state']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1727348786876.run(Script1727348786876.groovy:31)
+	... 18 more
+)
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='customer.address.state']'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:11:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'. Try using Self-healing.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='customer.address.state']'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='updateProfileForm']/form/table/tbody/tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[5]/td[2]/input'.
+
+29-09-2024T01:11:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'.
+
+29-09-2024T01:11:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:11:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:11:50 - [MESSAGE][FAILED] - Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case (52).run(New Test Case (52):31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550881877.run(TempTestSuite1727550881877.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' located by '//input[@id='customer.address.state']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1727348786876.run(Script1727348786876.groovy:31)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[29-09-2024T01:10:38 - [TEST_CASE][FAILED] - Test Cases/New Test Case (52): Test Cases/New Test Case (52) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case (52).run(New Test Case (52):31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550881877.run(TempTestSuite1727550881877.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' located by '//input[@id='customer.address.state']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (51)" time="15.487" classname="Test Cases/New Test Case (51)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T01:11:50 - [TEST_CASE][PASSED] - Test Cases/New Test Case (51): Test Cases/New Test Case (51)
+
+29-09-2024T01:11:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T01:11:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-09-2024T01:11:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T01:11:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T01:11:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T01:11:51 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+29-09-2024T01:11:54 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+29-09-2024T01:11:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Username_username"), "ram"): Text 'ram' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+29-09-2024T01:11:54 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+29-09-2024T01:11:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_password"), "1GvK2HZY7CyrJ0QUV2kr7w=="): Text ****** has been set on object 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+29-09-2024T01:11:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+29-09-2024T01:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_button")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on
+
+29-09-2024T01:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on
+
+29-09-2024T01:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Accounts Overview/a_Transfer Funds")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Accounts Overview/a_Transfer Funds' is clicked on
+
+29-09-2024T01:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Accounts Overview/a_Transfer Funds' is clicked on
+
+29-09-2024T01:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Transfer Funds/a_Bill Pay")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Transfer Funds/a_Bill Pay' is clicked on
+
+29-09-2024T01:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Transfer Funds/a_Bill Pay' is clicked on
+
+29-09-2024T01:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Bill Pay/a_Request Loan")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Bill Pay/a_Request Loan' is clicked on
+
+29-09-2024T01:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Bill Pay/a_Request Loan' is clicked on
+
+29-09-2024T01:12:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Loan Amount_amount"), "990000"): Text '990000' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Loan Amount_amount'
+
+29-09-2024T01:12:00 - [MESSAGE][PASSED] - Text '990000' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Loan Amount_amount'
+
+29-09-2024T01:12:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Down Payment_downPayment"), "990"): Text '990' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Down Payment_downPayment'
+
+29-09-2024T01:12:01 - [MESSAGE][PASSED] - Text '990' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Down Payment_downPayment'
+
+29-09-2024T01:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_From account_button")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_From account_button' is clicked on
+
+29-09-2024T01:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_From account_button' is clicked on
+
+29-09-2024T01:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Loan Request/a_contact")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/a_contact' is clicked on
+
+29-09-2024T01:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/a_contact' is clicked on
+
+29-09-2024T01:12:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Name_name"), "ram"): Text 'ram' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Name_name'
+
+29-09-2024T01:12:03 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Name_name'
+
+29-09-2024T01:12:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Email_email"), "r@gmail.com"): Text 'r@gmail.com' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Email_email'
+
+29-09-2024T01:12:03 - [MESSAGE][PASSED] - Text 'r@gmail.com' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Email_email'
+
+29-09-2024T01:12:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Phone_phone"), "8545962341"): Text '8545962341' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Phone_phone'
+
+29-09-2024T01:12:04 - [MESSAGE][PASSED] - Text '8545962341' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Phone_phone'
+
+29-09-2024T01:12:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/textarea_Message_message"), "test"): Text 'test' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/textarea_Message_message'
+
+29-09-2024T01:12:05 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/textarea_Message_message'
+
+29-09-2024T01:12:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Message_button")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Message_button' is clicked on
+
+29-09-2024T01:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Message_button' is clicked on
+
+29-09-2024T01:12:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T01:12:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-09-2024T01:06:39 - [TEST_SUITE][FAILED] - New Test Suite (3): Test Cases/New Test Case (52) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case (52).run(New Test Case (52):31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550881877.run(TempTestSuite1727550881877.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' located by '//input[@id='customer.address.state']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[29-09-2024T01:06:39 - [TEST_SUITE][FAILED] - New Test Suite (3): Test Cases/New Test Case (52) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Sharlet' of object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case (52).run(New Test Case (52):31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550881877.run(TempTestSuite1727550881877.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state' located by '//input[@id='customer.address.state']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

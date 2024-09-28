@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (10),Chrome 129.0.0.0,,,29-09-2024 00:39:18,29-09-2024 00:39:33,14.352s,PASSED
+,,,,,,,
+Test Cases/New Test Case (17),Chrome 129.0.0.0,,,29-09-2024 00:39:19,29-09-2024 00:39:24,5.144s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:39:19,29-09-2024 00:39:20,1.705s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 129.0.0.0,,,29-09-2024 00:39:20,29-09-2024 00:39:22,1.428s,PASSED
+"setText(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Switch To Alert Example_enter-name""), ""raam"")",Chrome 129.0.0.0,,,29-09-2024 00:39:22,29-09-2024 00:39:23,0.771s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Switch To Alert Example_alertbtn""))",Chrome 129.0.0.0,,,29-09-2024 00:39:23,29-09-2024 00:39:23,0.334s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Switch To Alert Example_confirmbtn""))",Chrome 129.0.0.0,,,29-09-2024 00:39:23,29-09-2024 00:39:23,0.079s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/a_Free Access to InterviewQuesResumeAssista_ebce08""))",Chrome 129.0.0.0,,,29-09-2024 00:39:23,29-09-2024 00:39:23,0.418s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:39:23,29-09-2024 00:39:24,0.217s,PASSED
+,,,,,,,
+Test Cases/New Test Case (18),Chrome 129.0.0.0,,,29-09-2024 00:39:24,29-09-2024 00:39:28,4.038s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:39:24,29-09-2024 00:39:24,0.647s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 129.0.0.0,,,29-09-2024 00:39:24,29-09-2024 00:39:26,1.504s,PASSED
+"setText(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Element Displayed Example_show-hide""), ""text"")",Chrome 129.0.0.0,,,29-09-2024 00:39:26,29-09-2024 00:39:27,0.766s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Element Displayed Example_show-textbox""))",Chrome 129.0.0.0,,,29-09-2024 00:39:27,29-09-2024 00:39:27,0.307s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Element Displayed Example_hide-textbox""))",Chrome 129.0.0.0,,,29-09-2024 00:39:27,29-09-2024 00:39:27,0.313s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Element Displayed Example_show-textbox""))",Chrome 129.0.0.0,,,29-09-2024 00:39:27,29-09-2024 00:39:28,0.289s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:39:28,29-09-2024 00:39:28,0.160s,PASSED
+,,,,,,,
+Test Cases/New Test Case (28),Chrome 129.0.0.0,,,29-09-2024 00:39:28,29-09-2024 00:39:33,5.011s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:39:28,29-09-2024 00:39:28,0.673s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/"")",Chrome 129.0.0.0,,,29-09-2024 00:39:28,29-09-2024 00:39:31,2.724s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Checkboxes""))",Chrome 129.0.0.0,,,29-09-2024 00:39:31,29-09-2024 00:39:32,0.809s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/input_checkbox""))",Chrome 129.0.0.0,,,29-09-2024 00:39:32,29-09-2024 00:39:32,0.298s,PASSED
+"click(findTestObject(""Object Repository/the-internet.herokuapp.com/Page_The Internet/input_checkbox_1""))",Chrome 129.0.0.0,,,29-09-2024 00:39:32,29-09-2024 00:39:33,0.300s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:39:33,29-09-2024 00:39:33,0.162s,PASSED

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Access all our Courses</name>
+   <tag></tag>
+   <elementGuidId>a67b4d9a-e622-4648-8b46-f68397d64a33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.main-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='header-part']/div[2]/div/div/div[2]/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Access all our Courses&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dbc66941-d568-4f8d-b579-1086da639494</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.udemy.com/user/testing-minds/</value>
+      <webElementGuid>52bd0c94-37da-4432-908c-613f6a188590</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-btn</value>
+      <webElementGuid>42d005cb-1323-40b4-88b6-8fcd5d1d5e5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Access all our Courses</value>
+      <webElementGuid>dcc62f0f-c249-46e0-99ea-a0ea6a274299</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header-part&quot;)/div[@class=&quot;header-logo-support pt-30 pb-30&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8 col-md-8&quot;]/div[@class=&quot;support-button float-right d-none d-md-block&quot;]/div[@class=&quot;button float-left&quot;]/a[@class=&quot;main-btn&quot;]</value>
+      <webElementGuid>41f5e684-c899-4c25-8165-4e0bbe2228df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='header-part']/div[2]/div/div/div[2]/div/div[2]/a</value>
+      <webElementGuid>838bf0cb-caa4-42f6-b4c9-2b1549912804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Access all our Courses')]</value>
+      <webElementGuid>d807ce8d-b7f7-4639-9fe1-212f81974de1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='info@qaclickacademy.com'])[2]/following::a[1]</value>
+      <webElementGuid>36a845e1-cbc8-42a0-acdc-1f85b118cd62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='info@qaclickacademy.com'])[1]/following::a[2]</value>
+      <webElementGuid>c37f988e-02aa-468b-b173-3f3fddffbf31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[1]</value>
+      <webElementGuid>5610d2d7-0ca0-42a4-880e-38394e6f7357</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Courses'])[1]/preceding::a[2]</value>
+      <webElementGuid>2ea48b0d-60fa-4853-ab4b-93c8a7c3e5d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Access all our Courses']/parent::*</value>
+      <webElementGuid>75799534-dddd-4d67-9beb-6daea0fe5006</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.udemy.com/user/testing-minds/')]</value>
+      <webElementGuid>524db22a-5d91-48b2-8963-b9c381f55b89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>6ea268f9-9337-457e-9e86-2c34d7d344f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.udemy.com/user/testing-minds/' and (text() = 'Access all our Courses' or . = 'Access all our Courses')]</value>
+      <webElementGuid>b49c2be5-631d-4d8e-ac7c-2e817dd4a18c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

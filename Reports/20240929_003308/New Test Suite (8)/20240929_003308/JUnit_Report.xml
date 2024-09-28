@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (8)" time="42.946" tests="3" failures="0" errors="0">
+   <testsuite name="New Test Suite (8)" tests="3" failures="0" errors="0" time="42.946" skipped="0" timestamp="29-09-2024T00:33:14" hostname="srpat - RamMarshivane" id="Test Suites/New Test Suite (8)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_003308\\New Test Suite (8)\\20240929_003308"/>
+         <property name="logFiles" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_003308\\New Test Suite (8)\\20240929_003308\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="srpat - RamMarshivane"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="33bc3174e8116f415bbf7c5858f237ea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (40)" time="0.174" classname="Test Cases/New Test Case (40)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:33:14 - [TEST_CASE][PASSED] - Test Cases/New Test Case (40): Test Cases/New Test Case (40)
+
+29-09-2024T00:33:14 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (41)" time="5.912" classname="Test Cases/New Test Case (41)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:33:14 - [TEST_CASE][PASSED] - Test Cases/New Test Case (41): Test Cases/New Test Case (41)
+
+29-09-2024T00:33:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:33:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:33:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:33:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:33:16 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:33:19 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:33:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_JavaScript Alerts")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_JavaScript Alerts' is clicked on
+
+29-09-2024T00:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_JavaScript Alerts' is clicked on
+
+29-09-2024T00:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Alert")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Alert' is clicked on
+
+29-09-2024T00:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Alert' is clicked on
+
+29-09-2024T00:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Confirm")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Confirm' is clicked on
+
+29-09-2024T00:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Confirm' is clicked on
+
+29-09-2024T00:33:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Prompt")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Prompt' is clicked on
+
+29-09-2024T00:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Click for JS Prompt' is clicked on
+
+29-09-2024T00:33:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:33:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (42)" time="36.692" classname="Test Cases/New Test Case (42)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:33:20 - [TEST_CASE][PASSED] - Test Cases/New Test Case (42): Test Cases/New Test Case (42)
+
+29-09-2024T00:33:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:33:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:33:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:33:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:33:21 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:33:24 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:33:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Multiple Windows")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Multiple Windows' is clicked on
+
+29-09-2024T00:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Multiple Windows' is clicked on
+
+29-09-2024T00:33:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here' is clicked on
+
+29-09-2024T00:33:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='content']/div/p/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T00:33:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here'. Try using Self-healing.
+
+29-09-2024T00:33:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='content']/div/p/a'.
+
+29-09-2024T00:33:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(text(),'Click here')]'.
+
+29-09-2024T00:33:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Notification Message'])[2]/following::a[1]'.
+
+29-09-2024T00:33:56 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Elemental Selenium'])[1]/preceding::a[1]'.
+
+29-09-2024T00:33:57 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/srpat/Katalon Studio/My First Web UI Project/Reports/Self-healing/Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here_neighbor.png
+
+29-09-2024T00:33:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Elemental Selenium'])[1]/preceding::a[1]'.
+
+29-09-2024T00:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_click here' is clicked on
+
+29-09-2024T00:33:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:33:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-09-2024T00:33:14 - [TEST_SUITE][PASSED] - New Test Suite (8): Test Cases/New Test Case (42)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

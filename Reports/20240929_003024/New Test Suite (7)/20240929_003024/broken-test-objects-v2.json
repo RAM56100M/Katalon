@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SauceLab/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240929_003024/New Test Suite (7)/20240929_003024/Object Repository/SauceLab/Page_Swag Labs/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo",
+      "brokenLocator": "//a[@id\u003d\u0027d1c2eb70-5e0f-013d-d3a2-761a768c7220\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027content\u0027]/div/div/div/div/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240929_003024/New Test Suite (7)/20240929_003024/Object Repository/the-internet.herokuapp.com/Page_The Internet/a_foo_idRelative.png"
+    }
+  ]
+}

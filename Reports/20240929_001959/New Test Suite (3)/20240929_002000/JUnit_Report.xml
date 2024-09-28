@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (3)" time="51.506" tests="3" failures="0" errors="0">
+   <testsuite name="New Test Suite (3)" tests="3" failures="0" errors="0" time="51.506" skipped="0" timestamp="29-09-2024T00:20:07" hostname="srpat - RamMarshivane" id="Test Suites/New Test Suite (3)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_001959\\New Test Suite (3)\\20240929_002000"/>
+         <property name="logFiles" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_001959\\New Test Suite (3)\\20240929_002000\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="srpat - RamMarshivane"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="e6b0205f0d96f6ffa36a38f2718e0855"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (10)" time="15.483" classname="Test Cases/New Test Case (10)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:20:07 - [TEST_CASE][PASSED] - Test Cases/New Test Case (10): Test Cases/New Test Case (10)
+
+29-09-2024T00:20:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:20:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:20:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:20:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:20:09 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T00:20:13 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T00:20:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T00:20:14 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T00:20:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:20:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:20:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:20:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Admin_oxd-icon-button oxd-main-menu-button")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Admin_oxd-icon-button oxd-main-menu-button' is clicked on
+
+29-09-2024T00:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Admin_oxd-icon-button oxd-main-menu-button' is clicked on
+
+29-09-2024T00:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_2024-24-09 0241 AM")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_2024-24-09 0241 AM' is clicked on
+
+29-09-2024T00:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_2024-24-09 0241 AM' is clicked on
+
+29-09-2024T00:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T00:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T00:20:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:20:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (52)" time="20.715" classname="Test Cases/New Test Case (52)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:20:22 - [TEST_CASE][PASSED] - Test Cases/New Test Case (52): Test Cases/New Test Case (52)
+
+29-09-2024T00:20:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:20:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:20:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:20:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:20:23 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+29-09-2024T00:20:27 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+29-09-2024T00:20:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/input_Username_username"), "ram"): Text 'ram' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+29-09-2024T00:20:27 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+29-09-2024T00:20:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_ParaBank  Welcome  Online Banking/input_Password_password"), "1GvK2HZY7CyrJ0QUV2kr7w=="): Text ****** has been set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+29-09-2024T00:20:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+29-09-2024T00:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info")): Object: 'Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info' is clicked on
+
+29-09-2024T00:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info' is clicked on
+
+29-09-2024T00:20:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state"), "Sharlet"): Text 'Sharlet' is set on object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'
+
+29-09-2024T00:20:40 - [MESSAGE][PASSED] - Text 'Sharlet' is set on object 'Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state'
+
+29-09-2024T00:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Update Profile/input_Phone_button")): Object: 'Object Repository/Page_ParaBank  Update Profile/input_Phone_button' is clicked on
+
+29-09-2024T00:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Update Profile/input_Phone_button' is clicked on
+
+29-09-2024T00:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  Update Profile/a_about")): Object: 'Object Repository/Page_ParaBank  Update Profile/a_about' is clicked on
+
+29-09-2024T00:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  Update Profile/a_about' is clicked on
+
+29-09-2024T00:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank  About Us/a_home")): Object: 'Object Repository/Page_ParaBank  About Us/a_home' is clicked on
+
+29-09-2024T00:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank  About Us/a_home' is clicked on
+
+29-09-2024T00:20:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:20:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (51)" time="15.135" classname="Test Cases/New Test Case (51)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:20:43 - [TEST_CASE][PASSED] - Test Cases/New Test Case (51): Test Cases/New Test Case (51)
+
+29-09-2024T00:20:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:20:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:20:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:20:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:20:44 - [TEST_STEP][PASSED] - navigateToUrl("https://parabank.parasoft.com/parabank/index.htm"): Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+29-09-2024T00:20:46 - [MESSAGE][PASSED] - Navigate to 'https://parabank.parasoft.com/parabank/index.htm' successfully
+
+29-09-2024T00:20:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Username_username"), "ram"): Text 'ram' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+29-09-2024T00:20:47 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Username_username'
+
+29-09-2024T00:20:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_password"), "1GvK2HZY7CyrJ0QUV2kr7w=="): Text ****** has been set on object 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+29-09-2024T00:20:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_password'
+
+29-09-2024T00:20:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_button")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on
+
+29-09-2024T00:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_button' is clicked on
+
+29-09-2024T00:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Accounts Overview/a_Transfer Funds")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Accounts Overview/a_Transfer Funds' is clicked on
+
+29-09-2024T00:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Accounts Overview/a_Transfer Funds' is clicked on
+
+29-09-2024T00:20:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Transfer Funds/a_Bill Pay")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Transfer Funds/a_Bill Pay' is clicked on
+
+29-09-2024T00:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Transfer Funds/a_Bill Pay' is clicked on
+
+29-09-2024T00:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Bill Pay/a_Request Loan")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Bill Pay/a_Request Loan' is clicked on
+
+29-09-2024T00:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Bill Pay/a_Request Loan' is clicked on
+
+29-09-2024T00:20:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Loan Amount_amount"), "990000"): Text '990000' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Loan Amount_amount'
+
+29-09-2024T00:20:52 - [MESSAGE][PASSED] - Text '990000' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Loan Amount_amount'
+
+29-09-2024T00:20:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Down Payment_downPayment"), "990"): Text '990' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Down Payment_downPayment'
+
+29-09-2024T00:20:53 - [MESSAGE][PASSED] - Text '990' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Down Payment_downPayment'
+
+29-09-2024T00:20:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_From account_button")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_From account_button' is clicked on
+
+29-09-2024T00:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_From account_button' is clicked on
+
+29-09-2024T00:20:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Loan Request/a_contact")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/a_contact' is clicked on
+
+29-09-2024T00:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Loan Request/a_contact' is clicked on
+
+29-09-2024T00:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Name_name"), "ram"): Text 'ram' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Name_name'
+
+29-09-2024T00:20:56 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Name_name'
+
+29-09-2024T00:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Email_email"), "r@gmail.com"): Text 'r@gmail.com' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Email_email'
+
+29-09-2024T00:20:56 - [MESSAGE][PASSED] - Text 'r@gmail.com' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Email_email'
+
+29-09-2024T00:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Phone_phone"), "8545962341"): Text '8545962341' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Phone_phone'
+
+29-09-2024T00:20:57 - [MESSAGE][PASSED] - Text '8545962341' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Phone_phone'
+
+29-09-2024T00:20:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/textarea_Message_message"), "test"): Text 'test' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/textarea_Message_message'
+
+29-09-2024T00:20:57 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/textarea_Message_message'
+
+29-09-2024T00:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Message_button")): Object: 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Message_button' is clicked on
+
+29-09-2024T00:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Message_button' is clicked on
+
+29-09-2024T00:20:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:20:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-09-2024T00:20:07 - [TEST_SUITE][PASSED] - New Test Suite (3): Test Cases/New Test Case (51)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

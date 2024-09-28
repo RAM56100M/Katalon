@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (5)" time="31.819" tests="5" failures="0" errors="0">
+   <testsuite name="New Test Suite (5)" tests="5" failures="0" errors="0" time="31.819" skipped="0" timestamp="29-09-2024T00:25:55" hostname="srpat - RamMarshivane" id="Test Suites/New Test Suite (5)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_002549\\New Test Suite (5)\\20240929_002549"/>
+         <property name="logFiles" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_002549\\New Test Suite (5)\\20240929_002549\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="srpat - RamMarshivane"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="bc6954782123037c427b8393830b6d63"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case (34)" time="7.325" classname="Test Cases/New Test Case (34)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:25:55 - [TEST_CASE][PASSED] - Test Cases/New Test Case (34): Test Cases/New Test Case (34)
+
+29-09-2024T00:25:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:25:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:25:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:25:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:25:57 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:00 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_File Download")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_File Download' is clicked on
+
+29-09-2024T00:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_File Download' is clicked on
+
+29-09-2024T00:26:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_cluster 4 functional testing tools.png")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_cluster 4 functional testing tools.png' is clicked on
+
+29-09-2024T00:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_cluster 4 functional testing tools.png' is clicked on
+
+29-09-2024T00:26:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_LD.png")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_LD.png' is clicked on
+
+29-09-2024T00:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_LD.png' is clicked on
+
+29-09-2024T00:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_karate-logo.png")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_karate-logo.png' is clicked on
+
+29-09-2024T00:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_karate-logo.png' is clicked on
+
+29-09-2024T00:26:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:26:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (35)" time="5.369" classname="Test Cases/New Test Case (35)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:26:03 - [TEST_CASE][PASSED] - Test Cases/New Test Case (35): Test Cases/New Test Case (35)
+
+29-09-2024T00:26:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:26:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:26:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:26:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:26:03 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:06 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Dynamic Loading")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Dynamic Loading' is clicked on
+
+29-09-2024T00:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Dynamic Loading' is clicked on
+
+29-09-2024T00:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Example 1 Element on page that is hidden")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Example 1 Element on page that is hidden' is clicked on
+
+29-09-2024T00:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Example 1 Element on page that is hidden' is clicked on
+
+29-09-2024T00:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Start")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Start' is clicked on
+
+29-09-2024T00:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Start' is clicked on
+
+29-09-2024T00:26:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:26:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (36)" time="5.818" classname="Test Cases/New Test Case (36)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:26:08 - [TEST_CASE][PASSED] - Test Cases/New Test Case (36): Test Cases/New Test Case (36)
+
+29-09-2024T00:26:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:26:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:26:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:26:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:26:09 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:12 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Forgot Password")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Forgot Password' is clicked on
+
+29-09-2024T00:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Forgot Password' is clicked on
+
+29-09-2024T00:26:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/input_E-mail_email"), "r@gmail.com"): Text 'r@gmail.com' is set on object 'Object Repository/the-internet.herokuapp.com/Page_The Internet/input_E-mail_email'
+
+29-09-2024T00:26:13 - [MESSAGE][PASSED] - Text 'r@gmail.com' is set on object 'Object Repository/the-internet.herokuapp.com/Page_The Internet/input_E-mail_email'
+
+29-09-2024T00:26:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Retrieve password")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Retrieve password' is clicked on
+
+29-09-2024T00:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Retrieve password' is clicked on
+
+29-09-2024T00:26:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:26:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (37)" time="6.425" classname="Test Cases/New Test Case (37)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:26:14 - [TEST_CASE][PASSED] - Test Cases/New Test Case (37): Test Cases/New Test Case (37)
+
+29-09-2024T00:26:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:26:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:26:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:26:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:26:15 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:17 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Form Authentication")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Form Authentication' is clicked on
+
+29-09-2024T00:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Form Authentication' is clicked on
+
+29-09-2024T00:26:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/input_Username_username"), "ram"): Text 'ram' is set on object 'Object Repository/the-internet.herokuapp.com/Page_The Internet/input_Username_username'
+
+29-09-2024T00:26:19 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/the-internet.herokuapp.com/Page_The Internet/input_Username_username'
+
+29-09-2024T00:26:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/input_Password_password"), "1+gg5kC6GEk="): Text ****** has been set on object 'Object Repository/the-internet.herokuapp.com/Page_The Internet/input_Password_password'
+
+29-09-2024T00:26:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/the-internet.herokuapp.com/Page_The Internet/input_Password_password'
+
+29-09-2024T00:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Login")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Login' is clicked on
+
+29-09-2024T00:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/button_Login' is clicked on
+
+29-09-2024T00:26:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:26:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (38)" time="6.718" classname="Test Cases/New Test Case (38)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:26:20 - [TEST_CASE][PASSED] - Test Cases/New Test Case (38): Test Cases/New Test Case (38)
+
+29-09-2024T00:26:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:26:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:26:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:26:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:26:21 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/"): Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:24 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/' successfully
+
+29-09-2024T00:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Frames")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Frames' is clicked on
+
+29-09-2024T00:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Frames' is clicked on
+
+29-09-2024T00:26:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Nested Frames")): Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Nested Frames' is clicked on
+
+29-09-2024T00:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_The Internet/a_Nested Frames' is clicked on
+
+29-09-2024T00:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_/html_katalonfont-familymonospacefont-size13_0fa88e")): Object: 'Object Repository/the-internet.herokuapp.com/Page_/html_katalonfont-familymonospacefont-size13_0fa88e' is clicked on
+
+29-09-2024T00:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_/html_katalonfont-familymonospacefont-size13_0fa88e' is clicked on
+
+29-09-2024T00:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_/body_MIDDLE")): Object: 'Object Repository/the-internet.herokuapp.com/Page_/body_MIDDLE' is clicked on
+
+29-09-2024T00:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_/body_MIDDLE' is clicked on
+
+29-09-2024T00:26:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/the-internet.herokuapp.com/Page_/body_BOTTOMhtml1body1")): Object: 'Object Repository/the-internet.herokuapp.com/Page_/body_BOTTOMhtml1body1' is clicked on
+
+29-09-2024T00:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/the-internet.herokuapp.com/Page_/body_BOTTOMhtml1body1' is clicked on
+
+29-09-2024T00:26:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:26:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-09-2024T00:25:55 - [TEST_SUITE][PASSED] - New Test Suite (5): Test Cases/New Test Case (38)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

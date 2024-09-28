@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info",
+      "brokenLocator": "//div[@id\u003d\u0027leftPanel\u0027]/ul/li[6]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bill Pay\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240929_004438/New Test Suite (3)/20240929_004441/Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info_neighbor.png"
+    }
+  ]
+}

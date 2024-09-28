@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Orange_HRTest_Suite" time="33.302" tests="1" failures="0" errors="0">
+   <testsuite name="Orange_HRTest_Suite" tests="1" failures="0" errors="0" time="33.302" skipped="0" timestamp="22-09-2024T07:28:15" hostname="srpat - RamMarshivane" id="Test Suites/Orange_HRTest_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240922_072806\\Orange_HRTest_Suite\\20240922_072806"/>
+         <property name="logFiles" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240922_072806\\Orange_HRTest_Suite\\20240922_072806\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="srpat - RamMarshivane"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="5354b819fecf8d4a8c46c8ce11aea775"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login_MyInfo_Logout" time="33.073" classname="Test Cases/Login_MyInfo_Logout" status="PASSED">
+         <system-out><![CDATA[22-09-2024T07:28:15 - [TEST_CASE][PASSED] - Test Cases/Login_MyInfo_Logout: Test Cases/Login_MyInfo_Logout
+
+22-09-2024T07:28:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-09-2024T07:28:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-09-2024T07:28:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-09-2024T07:28:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-09-2024T07:28:18 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+22-09-2024T07:28:27 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+22-09-2024T07:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+22-09-2024T07:28:29 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+22-09-2024T07:28:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+22-09-2024T07:28:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+22-09-2024T07:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Login' is clicked on
+
+22-09-2024T07:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Login' is clicked on
+
+22-09-2024T07:28:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/span_My Info")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_My Info' is clicked on
+
+22-09-2024T07:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_My Info' is clicked on
+
+22-09-2024T07:28:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/a_Contact Details")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Contact Details' is clicked on
+
+22-09-2024T07:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Contact Details' is clicked on
+
+22-09-2024T07:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus"), "test"): Text 'test' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+22-09-2024T07:28:38 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+22-09-2024T07:28:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active"), "test"): Text 'test' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+22-09-2024T07:28:38 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+22-09-2024T07:28:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_City_oxd-input oxd-input--active"), "US"): Text 'US' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+22-09-2024T07:28:39 - [MESSAGE][PASSED] - Text 'US' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+22-09-2024T07:28:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active"), "US"): Text 'US' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+22-09-2024T07:28:40 - [MESSAGE][PASSED] - Text 'US' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+22-09-2024T07:28:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active"), ""): Text '' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+22-09-2024T07:28:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+22-09-2024T07:28:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active' is clicked on
+
+22-09-2024T07:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active' is clicked on
+
+22-09-2024T07:28:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --' is clicked on
+
+22-09-2024T07:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --' is clicked on
+
+22-09-2024T07:28:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Save' is clicked on
+
+22-09-2024T07:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Save' is clicked on
+
+22-09-2024T07:28:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/span_Dashboard")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Dashboard' is clicked on
+
+22-09-2024T07:28:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Dashboard' is clicked on
+
+22-09-2024T07:28:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_(1) Pending Self Review")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_(1) Pending Self Review' is clicked on
+
+22-09-2024T07:28:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_(1) Pending Self Review' is clicked on
+
+22-09-2024T07:28:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/span_manda user")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_manda user' is clicked on
+
+22-09-2024T07:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_manda user' is clicked on
+
+22-09-2024T07:28:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+22-09-2024T07:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+22-09-2024T07:28:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-09-2024T07:28:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-09-2024T07:28:15 - [TEST_SUITE][PASSED] - Orange_HRTest_Suite: Test Cases/Login_MyInfo_Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

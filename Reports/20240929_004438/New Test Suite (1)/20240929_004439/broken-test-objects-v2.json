@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange_HRM/Page_OrangeHRM/input",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/div[2]/div/div/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240929_004438/New Test Suite (1)/20240929_004439/Object Repository/Orange_HRM/Page_OrangeHRM/input_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div[2]/form/div/div/div[3]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027-- Select --\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240929_004438/New Test Suite (1)/20240929_004439/Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div[2]/form/div/div/div[4]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027-- Select --\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240929_004438/New Test Suite (1)/20240929_004439/Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1_neighbor.png"
+    }
+  ]
+}

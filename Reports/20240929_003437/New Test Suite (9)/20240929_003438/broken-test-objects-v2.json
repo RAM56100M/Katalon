@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/the-internet.herokuapp.com/Page_The Internet/a_500",
+      "brokenLocator": "//div[@id\u003d\u0027content\u0027]/div/ul/li[4]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Elemental Selenium\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240929_003437/New Test Suite (9)/20240929_003438/Object Repository/the-internet.herokuapp.com/Page_The Internet/a_500_neighbor.png"
+    }
+  ]
+}

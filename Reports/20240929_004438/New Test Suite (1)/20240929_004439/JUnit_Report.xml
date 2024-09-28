@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite (1)" time="1298.308" tests="6" failures="2" errors="0">
+   <testsuite name="New Test Suite (1)" tests="6" failures="2" errors="0" time="1298.308" skipped="0" timestamp="29-09-2024T00:44:49" hostname="srpat - RamMarshivane" id="Test Suites/New Test Suite (1)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_004438\\New Test Suite (1)\\20240929_004439"/>
+         <property name="logFiles" value="C:\\Users\\srpat\\Katalon Studio\\My First Web UI Project\\Reports\\20240929_004438\\New Test Suite (1)\\20240929_004439\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="srpat - RamMarshivane"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="40a669916e657dfd2ddda2e765e247fe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="6.43" classname="Test Cases/New Test Case" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New Test Case FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at New Test Case.run(New Test Case:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state&#xa;  (Session info: chrome=129.0.6668.70)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'RAMMARSHIVANE', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\srpat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: fbc59d55e4744184759ece9aebd33ce2&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[29-09-2024T00:45:06 - [TEST_CASE][FAILED] - Test Cases/New Test Case: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case.run(New Test Case:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RAMMARSHIVANE', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\srpat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc59d55e4744184759ece9aebd33ce2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+29-09-2024T00:45:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:45:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-09-2024T00:45:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:45:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:45:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:45:08 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+29-09-2024T00:45:10 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+29-09-2024T00:45:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-09-2024T00:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+29-09-2024T00:45:11 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+29-09-2024T00:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is double clicked on
+
+29-09-2024T00:45:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+29-09-2024T00:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is clicked on
+
+29-09-2024T00:45:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+29-09-2024T00:45:13 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+29-09-2024T00:45:13 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1"), "ThisIsNotAPassword"): Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case.run(New Test Case:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RAMMARSHIVANE', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\srpat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc59d55e4744184759ece9aebd33ce2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1726969478034.run(Script1726969478034.groovy:32)
+	... 18 more
+)
+
+29-09-2024T00:45:13 - [MESSAGE][FAILED] - Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case.run(New Test Case:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RAMMARSHIVANE', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\srpat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc59d55e4744184759ece9aebd33ce2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1726969478034.run(Script1726969478034.groovy:32)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[29-09-2024T00:45:06 - [TEST_CASE][FAILED] - Test Cases/New Test Case: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case.run(New Test Case:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RAMMARSHIVANE', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\srpat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc59d55e4744184759ece9aebd33ce2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (9)" time="13.774" classname="Test Cases/New Test Case (9)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:45:13 - [TEST_CASE][PASSED] - Test Cases/New Test Case (9): Test Cases/New Test Case (9)
+
+29-09-2024T00:45:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:45:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-09-2024T00:45:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:45:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:45:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:45:14 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T00:45:17 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T00:45:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T00:45:18 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T00:45:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:45:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:45:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:45:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:45:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/span_Buzz")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Buzz' is clicked on
+
+29-09-2024T00:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Buzz' is clicked on
+
+29-09-2024T00:45:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/textarea_Upgrade_oxd-buzz-post-input"), "Happy Birthday to all"): Text 'Happy Birthday to all' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/textarea_Upgrade_oxd-buzz-post-input'
+
+29-09-2024T00:45:24 - [MESSAGE][PASSED] - Text 'Happy Birthday to all' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/textarea_Upgrade_oxd-buzz-post-input'
+
+29-09-2024T00:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Post")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Post' is clicked on
+
+29-09-2024T00:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Post' is clicked on
+
+29-09-2024T00:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:45:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T00:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T00:45:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:45:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (8)" time="48.18" classname="Test Cases/New Test Case (8)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:45:27 - [TEST_CASE][PASSED] - Test Cases/New Test Case (8): Test Cases/New Test Case (8)
+
+29-09-2024T00:45:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:45:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:45:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:45:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:45:27 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T00:45:30 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T00:45:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T00:45:31 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T00:45:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:45:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:45:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:45:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/span_Claim")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Claim' is clicked on
+
+29-09-2024T00:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Claim' is clicked on
+
+29-09-2024T00:45:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input"), "a"): Text 'a' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input'
+
+29-09-2024T00:45:36 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input'
+
+29-09-2024T00:45:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_1"), "8"): Text '8' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_1'
+
+29-09-2024T00:45:37 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_1'
+
+29-09-2024T00:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --' is clicked on
+
+29-09-2024T00:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --' is clicked on
+
+29-09-2024T00:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1' is clicked on
+
+29-09-2024T00:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1' is clicked on
+
+29-09-2024T00:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Search' is clicked on
+
+29-09-2024T00:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Search' is clicked on
+
+29-09-2024T00:46:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Assign Claim")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Assign Claim' is clicked on
+
+29-09-2024T00:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Assign Claim' is clicked on
+
+29-09-2024T00:46:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_1_2"), "a"): Text 'a' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_1_2'
+
+29-09-2024T00:46:10 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_1_2'
+
+29-09-2024T00:46:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1_2")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1_2' is clicked on
+
+29-09-2024T00:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1_2' is clicked on
+
+29-09-2024T00:46:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1_2_3")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1_2_3' is clicked on
+
+29-09-2024T00:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1_2_3' is clicked on
+
+29-09-2024T00:46:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/textarea_Remarks_oxd-textarea oxd-textarea-_237541"), "sfdfda"): Text 'sfdfda' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+29-09-2024T00:46:12 - [MESSAGE][PASSED] - Text 'sfdfda' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/textarea_Remarks_oxd-textarea oxd-textarea-_237541'
+
+29-09-2024T00:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Create")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Create' is clicked on
+
+29-09-2024T00:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Create' is clicked on
+
+29-09-2024T00:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:46:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:46:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T00:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T00:46:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:46:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (7)" time="156.25" classname="Test Cases/New Test Case (7)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T00:54:46 - [TEST_CASE][PASSED] - Test Cases/New Test Case (7): Test Cases/New Test Case (7)
+
+29-09-2024T00:54:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T00:54:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-09-2024T00:54:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T00:54:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T00:54:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T00:54:47 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T00:54:49 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T00:54:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T00:54:51 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T00:54:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:54:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T00:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Login' is clicked on
+
+29-09-2024T00:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Login' is clicked on
+
+29-09-2024T00:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/span_Directory")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Directory' is clicked on
+
+29-09-2024T00:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Directory' is clicked on
+
+29-09-2024T00:54:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input"), "r"): Text 'r' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input'
+
+29-09-2024T00:55:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/div[2]/div/div/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T00:55:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/input'. Try using Self-healing.
+
+29-09-2024T00:55:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange_HRM/Page_OrangeHRM/input' was broken. Propose an alternative one: '//div/div[2]/div/div/input'.
+
+29-09-2024T00:55:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/div[2]/div/div/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T00:55:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/input'. Try using Self-healing.
+
+29-09-2024T00:55:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange_HRM/Page_OrangeHRM/input' was broken. Propose an alternative one: '//div/div[2]/div/div/input'.
+
+29-09-2024T00:55:57 - [MESSAGE][PASSED] - Text 'r' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input'
+
+29-09-2024T00:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --' is clicked on
+
+29-09-2024T00:56:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div[3]/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T00:56:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --'. Try using Self-healing.
+
+29-09-2024T00:56:29 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='-- Select --']/parent::*'.
+
+29-09-2024T00:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --' is clicked on
+
+29-09-2024T00:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1' is clicked on
+
+29-09-2024T00:57:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div[4]/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T00:57:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1'. Try using Self-healing.
+
+29-09-2024T00:57:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='-- Select --']/parent::*'.
+
+29-09-2024T00:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_-- Select --_1' is clicked on
+
+29-09-2024T00:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Search' is clicked on
+
+29-09-2024T00:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Search' is clicked on
+
+29-09-2024T00:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ' is clicked on
+
+29-09-2024T00:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T00:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T00:57:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T00:57:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (6)" time="116.698" classname="Test Cases/New Test Case (6)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New Test Case (6) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at New Test Case (6).run(New Test Case (6):61)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist' located by '(//button[@type='button'])[5]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[29-09-2024T01:03:12 - [TEST_CASE][FAILED] - Test Cases/New Test Case (6): Test Cases/New Test Case (6) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at New Test Case (6).run(New Test Case (6):61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist' located by '(//button[@type='button'])[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+29-09-2024T01:03:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T01:03:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-09-2024T01:03:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T01:03:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T01:03:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T01:03:13 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T01:03:16 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T01:03:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T01:03:17 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T01:03:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:03:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Login' is clicked on
+
+29-09-2024T01:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Login' is clicked on
+
+29-09-2024T01:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/span_Recruitment")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Recruitment' is clicked on
+
+29-09-2024T01:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Recruitment' is clicked on
+
+29-09-2024T01:03:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+29-09-2024T01:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+29-09-2024T01:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+29-09-2024T01:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+29-09-2024T01:03:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+29-09-2024T01:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+29-09-2024T01:03:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+29-09-2024T01:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+29-09-2024T01:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input"), "r"): Text 'r' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input'
+
+29-09-2024T01:03:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/div[2]/div/div/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:03:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/input'. Try using Self-healing.
+
+29-09-2024T01:03:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange_HRM/Page_OrangeHRM/input' was broken. Propose an alternative one: '//div/div[2]/div/div/input'.
+
+29-09-2024T01:04:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/div[2]/div/div/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:04:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/input'. Try using Self-healing.
+
+29-09-2024T01:04:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange_HRM/Page_OrangeHRM/input' was broken. Propose an alternative one: '//div/div[2]/div/div/input'.
+
+29-09-2024T01:04:26 - [MESSAGE][PASSED] - Text 'r' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input'
+
+29-09-2024T01:04:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Search' is clicked on
+
+29-09-2024T01:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Search' is clicked on
+
+29-09-2024T01:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/div_Add")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_Add' is clicked on
+
+29-09-2024T01:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/div_Add' is clicked on
+
+29-09-2024T01:04:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/i_Add_oxd-icon bi-plus oxd-button-icon")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_Add_oxd-icon bi-plus oxd-button-icon' is clicked on
+
+29-09-2024T01:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/i_Add_oxd-icon bi-plus oxd-button-icon' is clicked on
+
+29-09-2024T01:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_firstName"), "ram"): Text 'ram' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_firstName'
+
+29-09-2024T01:04:30 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_firstName'
+
+29-09-2024T01:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_middleName"), "ram"): Text 'ram' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_middleName'
+
+29-09-2024T01:04:30 - [MESSAGE][PASSED] - Text 'ram' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_middleName'
+
+29-09-2024T01:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_lastName"), "patil"): Text 'patil' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_lastName'
+
+29-09-2024T01:04:31 - [MESSAGE][PASSED] - Text 'patil' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Full Name_lastName'
+
+29-09-2024T01:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Email_oxd-input oxd-input--focus"), "abc@gmail.comm"): Text 'abc@gmail.comm' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Email_oxd-input oxd-input--focus'
+
+29-09-2024T01:04:32 - [MESSAGE][PASSED] - Text 'abc@gmail.comm' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Email_oxd-input oxd-input--focus'
+
+29-09-2024T01:04:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Contact Number_oxd-input oxd-input--active"), "9845681562"): Text '9845681562' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Contact Number_oxd-input oxd-input--active'
+
+29-09-2024T01:04:32 - [MESSAGE][PASSED] - Text '9845681562' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Contact Number_oxd-input oxd-input--active'
+
+29-09-2024T01:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Save' is clicked on
+
+29-09-2024T01:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Save' is clicked on
+
+29-09-2024T01:04:33 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist")): Unable to click on object 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at New Test Case (6).run(New Test Case (6):61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist' located by '(//button[@type='button'])[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1727125331237.run(Script1727125331237.groovy:61)
+	... 18 more
+)
+
+29-09-2024T01:05:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//button[@type='button'])[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:05:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist'. Try using Self-healing.
+
+29-09-2024T01:05:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//button[@type='button'])[5]'.
+
+29-09-2024T01:05:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div[2]/div[2]/div/form/div[2]/div[2]/button[2]'.
+
+29-09-2024T01:05:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Hiring Manager'])[1]/following::button[2]'.
+
+29-09-2024T01:05:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Shortlist']/parent::*'.
+
+29-09-2024T01:05:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[2]'.
+
+29-09-2024T01:05:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button[@type = 'button' and (text() = ' Shortlist ' or . = ' Shortlist ')]'.
+
+29-09-2024T01:05:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'button' and (text() = ' Shortlist ' or . = ' Shortlist ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:05:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: button.oxd-button.oxd-button--medium.oxd-button--success'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:05:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at New Test Case (6).run(New Test Case (6):61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist' located by '(//button[@type='button'])[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1727125331237.run(Script1727125331237.groovy:61)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[29-09-2024T01:03:12 - [TEST_CASE][FAILED] - Test Cases/New Test Case (6): Test Cases/New Test Case (6) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at New Test Case (6).run(New Test Case (6):61)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Shortlist' located by '(//button[@type='button'])[5]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1419)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Test Case (5)" time="78.643" classname="Test Cases/New Test Case (5)" status="PASSED">
+         <system-out><![CDATA[29-09-2024T01:05:08 - [TEST_CASE][PASSED] - Test Cases/New Test Case (5): Test Cases/New Test Case (5)
+
+29-09-2024T01:05:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T01:05:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-09-2024T01:05:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T01:05:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T01:05:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T01:05:09 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T01:05:12 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+29-09-2024T01:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T01:05:14 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username'
+
+29-09-2024T01:05:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:05:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:05:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:05:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password'
+
+29-09-2024T01:05:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/span_Time")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Time' is clicked on
+
+29-09-2024T01:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/span_Time' is clicked on
+
+29-09-2024T01:05:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/input"), "r"): Text 'r' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input'
+
+29-09-2024T01:05:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/div[2]/div/div/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:05:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/input'. Try using Self-healing.
+
+29-09-2024T01:05:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange_HRM/Page_OrangeHRM/input' was broken. Propose an alternative one: '//div/div[2]/div/div/input'.
+
+29-09-2024T01:06:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div[2]/form/div/div/div/div/div[2]/div/div/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+29-09-2024T01:06:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Orange_HRM/Page_OrangeHRM/input'. Try using Self-healing.
+
+29-09-2024T01:06:22 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Orange_HRM/Page_OrangeHRM/input' was broken. Propose an alternative one: '//div/div[2]/div/div/input'.
+
+29-09-2024T01:06:22 - [MESSAGE][PASSED] - Text 'r' is set on object 'Object Repository/Orange_HRM/Page_OrangeHRM/input'
+
+29-09-2024T01:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_View")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_View' is clicked on
+
+29-09-2024T01:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_View' is clicked on
+
+29-09-2024T01:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/button_Create Timesheet")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Create Timesheet' is clicked on
+
+29-09-2024T01:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/button_Create Timesheet' is clicked on
+
+29-09-2024T01:06:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/p_manda user")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_manda user' is clicked on
+
+29-09-2024T01:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/p_manda user' is clicked on
+
+29-09-2024T01:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout")): Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T01:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout' is clicked on
+
+29-09-2024T01:06:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T01:06:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-09-2024T00:44:49 - [TEST_SUITE][FAILED] - New Test Suite (1): Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case.run(New Test Case:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RAMMARSHIVANE', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\srpat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f703bc7ac74c0d27abf07573165708e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[29-09-2024T00:44:49 - [TEST_SUITE][FAILED] - New Test Suite (1): Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ThisIsNotAPassword' of object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at New Test Case.run(New Test Case:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727550879565.run(TempTestSuite1727550879565.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'RAMMARSHIVANE', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\srpat\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f703bc7ac74c0d27abf07573165708e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

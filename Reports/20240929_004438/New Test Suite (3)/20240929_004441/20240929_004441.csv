@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (3),Chrome 129.0.0.0,,,29-09-2024 01:06:39,29-09-2024 01:12:05,5m - 26.108s,FAILED
+,,,,,,,
+Test Cases/New Test Case (10),Chrome 129.0.0.0,,,29-09-2024 01:06:39,29-09-2024 01:06:51,11.399s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 01:06:40,29-09-2024 01:06:41,1.643s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 129.0.0.0,,,29-09-2024 01:06:41,29-09-2024 01:06:43,2.131s,PASSED
+"setText(findTestObject(""Object Repository/Orange_HRM/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 129.0.0.0,,,29-09-2024 01:06:43,29-09-2024 01:06:45,1.128s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 129.0.0.0,,,29-09-2024 01:06:45,29-09-2024 01:06:45,0.356s,PASSED
+"sendKeys(findTestObject(""Object Repository/Orange_HRM/Page_OrangeHRM/input_Password_password""), Keys.chord(ENTER))",Chrome 129.0.0.0,,,29-09-2024 01:06:45,29-09-2024 01:06:46,1.311s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_OrangeHRM/button_Admin_oxd-icon-button oxd-main-menu-button""))",Chrome 129.0.0.0,,,29-09-2024 01:06:46,29-09-2024 01:06:47,0.397s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_OrangeHRM/p_2024-24-09 0241 AM""))",Chrome 129.0.0.0,,,29-09-2024 01:06:47,29-09-2024 01:06:48,1.400s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_OrangeHRM/p_YASSIR ARRAKHIZ""))",Chrome 129.0.0.0,,,29-09-2024 01:06:48,29-09-2024 01:06:49,1.465s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_OrangeHRM/a_Logout""))",Chrome 129.0.0.0,,,29-09-2024 01:06:49,29-09-2024 01:06:51,1.142s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 01:06:51,29-09-2024 01:06:51,0.205s,PASSED
+,,,,,,,
+Test Cases/New Test Case (52),Chrome 129.0.0.0,,,29-09-2024 01:10:38,29-09-2024 01:11:50,1m - 11.870s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 01:10:38,29-09-2024 01:10:39,0.819s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm"")",Chrome 129.0.0.0,,,29-09-2024 01:10:39,29-09-2024 01:10:42,3.045s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/input_Username_username""), ""ram"")",Chrome 129.0.0.0,,,29-09-2024 01:10:42,29-09-2024 01:10:42,0.578s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_ParaBank  Welcome  Online Banking/input_Password_password""), ""1GvK2HZY7CyrJ0QUV2kr7w=="")",Chrome 129.0.0.0,,,29-09-2024 01:10:42,29-09-2024 01:10:43,0.314s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank  Accounts Overview/a_Update Contact Info""))",Chrome 129.0.0.0,,,29-09-2024 01:10:43,29-09-2024 01:11:15,32.038s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank  Update Profile/input_State_customer.address.state""), ""Sharlet"")",Chrome 129.0.0.0,,,29-09-2024 01:11:15,29-09-2024 01:11:50,35.059s,FAILED
+,,,,,,,
+Test Cases/New Test Case (51),Chrome 129.0.0.0,,,29-09-2024 01:11:50,29-09-2024 01:12:05,15.487s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 01:11:50,29-09-2024 01:11:51,0.742s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm"")",Chrome 129.0.0.0,,,29-09-2024 01:11:51,29-09-2024 01:11:54,2.841s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Username_username""), ""ram"")",Chrome 129.0.0.0,,,29-09-2024 01:11:54,29-09-2024 01:11:54,0.572s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_password""), ""1GvK2HZY7CyrJ0QUV2kr7w=="")",Chrome 129.0.0.0,,,29-09-2024 01:11:54,29-09-2024 01:11:54,0.353s,PASSED
+"click(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Welcome  Online Banking/input_Password_button""))",Chrome 129.0.0.0,,,29-09-2024 01:11:54,29-09-2024 01:11:57,2.931s,PASSED
+"click(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Accounts Overview/a_Transfer Funds""))",Chrome 129.0.0.0,,,29-09-2024 01:11:57,29-09-2024 01:11:58,0.622s,PASSED
+"click(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Transfer Funds/a_Bill Pay""))",Chrome 129.0.0.0,,,29-09-2024 01:11:58,29-09-2024 01:11:59,0.766s,PASSED
+"click(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Bill Pay/a_Request Loan""))",Chrome 129.0.0.0,,,29-09-2024 01:11:59,29-09-2024 01:12:00,0.816s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Loan Amount_amount""), ""990000"")",Chrome 129.0.0.0,,,29-09-2024 01:12:00,29-09-2024 01:12:00,0.562s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_Down Payment_downPayment""), ""990"")",Chrome 129.0.0.0,,,29-09-2024 01:12:00,29-09-2024 01:12:01,0.569s,PASSED
+"click(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Loan Request/input_From account_button""))",Chrome 129.0.0.0,,,29-09-2024 01:12:01,29-09-2024 01:12:01,0.283s,PASSED
+"click(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Loan Request/a_contact""))",Chrome 129.0.0.0,,,29-09-2024 01:12:01,29-09-2024 01:12:02,1.346s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Name_name""), ""ram"")",Chrome 129.0.0.0,,,29-09-2024 01:12:02,29-09-2024 01:12:03,0.563s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Email_email""), ""r@gmail.com"")",Chrome 129.0.0.0,,,29-09-2024 01:12:03,29-09-2024 01:12:03,0.573s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Phone_phone""), ""8545962341"")",Chrome 129.0.0.0,,,29-09-2024 01:12:03,29-09-2024 01:12:04,0.560s,PASSED
+"setText(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Customer Care/textarea_Message_message""), ""test"")",Chrome 129.0.0.0,,,29-09-2024 01:12:04,29-09-2024 01:12:05,0.547s,PASSED
+"click(findTestObject(""Object Repository/Banking/Bank/Page_ParaBank  Customer Care/input_Message_button""))",Chrome 129.0.0.0,,,29-09-2024 01:12:05,29-09-2024 01:12:05,0.618s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 01:12:05,29-09-2024 01:12:05,0.157s,PASSED

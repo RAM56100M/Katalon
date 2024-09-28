@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite (10),Chrome 129.0.0.0,,,29-09-2024 00:36:48,29-09-2024 00:37:10,22.655s,FAILED
+,,,,,,,
+Test Cases/New Test Case (17),Chrome 129.0.0.0,,,29-09-2024 00:36:48,29-09-2024 00:36:53,5.172s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:36:48,29-09-2024 00:36:49,1.576s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 129.0.0.0,,,29-09-2024 00:36:49,29-09-2024 00:36:51,1.591s,PASSED
+"setText(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Switch To Alert Example_enter-name""), ""raam"")",Chrome 129.0.0.0,,,29-09-2024 00:36:51,29-09-2024 00:36:52,0.763s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Switch To Alert Example_alertbtn""))",Chrome 129.0.0.0,,,29-09-2024 00:36:52,29-09-2024 00:36:52,0.322s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Switch To Alert Example_confirmbtn""))",Chrome 129.0.0.0,,,29-09-2024 00:36:52,29-09-2024 00:36:52,0.085s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/a_Free Access to InterviewQuesResumeAssista_ebce08""))",Chrome 129.0.0.0,,,29-09-2024 00:36:52,29-09-2024 00:36:53,0.410s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:36:53,29-09-2024 00:36:53,0.208s,PASSED
+,,,,,,,
+Test Cases/New Test Case (18),Chrome 129.0.0.0,,,29-09-2024 00:36:53,29-09-2024 00:36:57,3.961s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:36:53,29-09-2024 00:36:54,0.629s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 129.0.0.0,,,29-09-2024 00:36:54,29-09-2024 00:36:55,1.432s,PASSED
+"setText(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Element Displayed Example_show-hide""), ""text"")",Chrome 129.0.0.0,,,29-09-2024 00:36:55,29-09-2024 00:36:56,0.790s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Element Displayed Example_show-textbox""))",Chrome 129.0.0.0,,,29-09-2024 00:36:56,29-09-2024 00:36:56,0.315s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Element Displayed Example_hide-textbox""))",Chrome 129.0.0.0,,,29-09-2024 00:36:56,29-09-2024 00:36:56,0.299s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/input_Element Displayed Example_show-textbox""))",Chrome 129.0.0.0,,,29-09-2024 00:36:56,29-09-2024 00:36:57,0.291s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,29-09-2024 00:36:57,29-09-2024 00:36:57,0.144s,PASSED
+,,,,,,,
+Test Cases/New Test Case (19),Chrome 129.0.0.0,,,29-09-2024 00:37:07,29-09-2024 00:37:10,3.681s,FAILED
+"openBrowser("""")",Chrome 129.0.0.0,,,29-09-2024 00:37:07,29-09-2024 00:37:07,0.768s,PASSED
+"navigateToUrl(""https://rahulshettyacademy.com/AutomationPractice/"")",Chrome 129.0.0.0,,,29-09-2024 00:37:07,29-09-2024 00:37:09,1.874s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/td_Selenium Webdriver with Java Basics  Adv_5e5e49""))",Chrome 129.0.0.0,,,29-09-2024 00:37:09,29-09-2024 00:37:10,0.442s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/td_30""))",Chrome 129.0.0.0,,,29-09-2024 00:37:10,29-09-2024 00:37:10,0.316s,PASSED
+"click(findTestObject(""Object Repository/Orange_HRM/Page_Practice Page/a_Reload""))",Chrome 129.0.0.0,,,29-09-2024 00:37:10,29-09-2024 00:37:10,0.268s,FAILED

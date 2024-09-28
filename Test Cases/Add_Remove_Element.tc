@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://the-internet.herokuapp.com/</description>
+   <name>Add_Remove_Element</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3bd82898-bebf-4773-8c04-90d63a872bd1</testCaseGuid>
+</TestCaseEntity>
